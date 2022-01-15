@@ -1,0 +1,2 @@
+java -jar ReconJar.jar .\\config\\configFile.txt
+pause

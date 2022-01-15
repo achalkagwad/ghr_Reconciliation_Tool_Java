@@ -1,0 +1,11 @@
+StudentID,StudentName,StudentSem,StudentSubject,StudentMarks,StudentAge
+1,Sachin Tendulkar,5,Maths,90,35
+2,Virender Shewag,5,Maths,80,31
+3,Virat Kohli,5,Maths,70,26
+4,Yuvraj Singh,5,Maths,60,28
+5,MS Dhoni,5,Maths,50,28
+1,Sachin Tendulkar,6,CS,50,45
+2,Virender Shewag,6,CS,60,41
+3,Virat Kohli,6,CS,70,36
+4,Yuvraj Singh,6,CS,80,38
+5,MS Dhoni,6,CS,90,38

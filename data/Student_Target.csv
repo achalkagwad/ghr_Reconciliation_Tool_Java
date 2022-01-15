@@ -1,0 +1,11 @@
+InternMarks,InternID,InternSem,InternSubject,StudentName,StudentAge
+92,ec01,5,Maths,Sachin Tendulkar,35
+80,ec02,5,Maths,Virender Shewag,31
+70,ec03,5,Maths,Virat Kohli,26
+60,ec04,5,Maths,Yuvraj Singh,28
+50,ec01,6,CS,Sachin Tendulkar,45
+60,ec02,6,CS,Virender Shewag,41
+65,ec03,6,CS,Virat Kohli,37
+80,ec04,6,CS,Yuvraj Singh,40
+90,ec05,6,CS,MS Dhoni,38
+95,ec06,6,CS,Zaheer Khan,48

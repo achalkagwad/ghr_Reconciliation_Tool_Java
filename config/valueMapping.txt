@@ -1,0 +1,11 @@
+StudentID=columnName
+ec01=1
+ec02=2
+ec03=3
+ec04=4
+ec01=1
+ec02=2
+ec03=3
+ec04=4
+ec05=5
+ec06=6

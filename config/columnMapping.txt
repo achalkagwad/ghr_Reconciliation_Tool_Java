@@ -1,0 +1,6 @@
+StudentName=StudentName
+StudentMarks=InternMarks
+StudentSem=InternSem
+StudentId=InternID
+StudentSubject=InternSubject
+StudentAge=StudentAge

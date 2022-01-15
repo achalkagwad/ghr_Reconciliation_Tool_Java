@@ -1,0 +1,9 @@
+TRN_DATE=TRN_DATE
+External ID=ExtID
+TRADEID=TransactionID
+B/S=B/S
+Counterparty=Counterparty
+Portfolio=Portfolio
+Nominal=Nominal
+Rate=Rate
+Strike=Strike

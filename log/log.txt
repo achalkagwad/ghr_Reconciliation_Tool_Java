@@ -1,0 +1,125 @@
+INFO|com.company.recon.MainClass|Printing Input Parameters for String[] args----> 
+INFO|com.company.recon.MainClass|.\\config\\configFile.txt
+INFO|com.company.recon.MainClass|Recon Tool Has Been Started
+INFO|com.company.recon.reader.ConfigFileReader|Static Block for 'ConfigFileReader.java' 
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\\config\\configFile.txt
+INFO|com.company.recon.reader.ConfigFileReader|Source File is:.\data\Student_Source.csv
+INFO|com.company.recon.reader.ConfigFileReader|calculateDevianceOn is:studentmarks,studentage,
+INFO|com.company.recon.reader.ConfigFileReader|percentageOrAbsolute is:absolute,percentage,
+INFO|com.company.recon.reader.ConfigFileReader|devianceValues is:4,10,
+INFO|com.company.recon.MainClass|valueMappingFile is NOT null,Creating new valueTarget File; Continuing with tool...
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\valueMapping.txt
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->valueMappedTargetlist ;Num of Records=11
+INFO|com.company.recon.writer.ConsoleWriter|InternMarks,InternID,InternSem,InternSubject,StudentName,StudentAge,
+INFO|com.company.recon.writer.ConsoleWriter|92,1,5,Maths,Sachin Tendulkar,35,
+INFO|com.company.recon.writer.ConsoleWriter|80,2,5,Maths,Virender Shewag,31,
+INFO|com.company.recon.writer.ConsoleWriter|70,3,5,Maths,Virat Kohli,26,
+INFO|com.company.recon.writer.ConsoleWriter|60,4,5,Maths,Yuvraj Singh,28,
+INFO|com.company.recon.writer.ConsoleWriter|50,1,6,CS,Sachin Tendulkar,45,
+INFO|com.company.recon.writer.ConsoleWriter|60,2,6,CS,Virender Shewag,41,
+INFO|com.company.recon.writer.ConsoleWriter|65,3,6,CS,Virat Kohli,37,
+INFO|com.company.recon.writer.ConsoleWriter|80,4,6,CS,Yuvraj Singh,40,
+INFO|com.company.recon.writer.ConsoleWriter|90,5,6,CS,MS Dhoni,38,
+INFO|com.company.recon.writer.ConsoleWriter|95,6,6,CS,Zaheer Khan,48,
+INFO|com.company.recon.MainClass|columnMappingFile is NOT null,Creating new Target File; Continuing with tool...
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->columnMappedTargetlist ;Num of Records=11
+INFO|com.company.recon.writer.ConsoleWriter|StudentID,StudentName,StudentSem,StudentSubject,StudentMarks,StudentAge,
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,5,Maths,92,35,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,5,Maths,80,31,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,5,Maths,70,26,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,5,Maths,60,28,
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,6,CS,50,45,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,6,CS,60,41,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,6,CS,65,37,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,6,CS,80,40,
+INFO|com.company.recon.writer.ConsoleWriter|5,MS Dhoni,6,CS,90,38,
+INFO|com.company.recon.writer.ConsoleWriter|6,Zaheer Khan,6,CS,95,48,
+INFO|com.company.recon.MainClass|Filter is not null, Continuing with tool...
+INFO|com.company.recon.MainClass|FilterKey is  subset of source and target headers, Continuing with tool...
+INFO|com.company.recon.MainClass|CompositeKey is  subset of FilterKey, Continuing with tool...
+INFO|com.company.recon.MainClass|DevianceKey is  subset of FilterKey, Continuing with tool...
+INFO|com.company.recon.MainClass|DevianceKey  had devianceValues have equal lengths.Continuing with tool....
+INFO|com.company.recon.MainClass|Passed 'Validity of Data in Source'. Continuing with the tool....
+INFO|com.company.recon.MainClass|Passed 'Validity of Data in Target'. Continuing with the tool....
+INFO|com.company.recon.MainClass|Passed 'Duplicate Check Validity' in Source. Continuing with the tool....
+INFO|com.company.recon.MainClass|Passed 'Duplicate Check Validity' in Target Data. Continuing with the tool...
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->sourcelist ;Num of Records=10
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,5,Maths,90,35,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,5,Maths,80,31,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,5,Maths,70,26,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,5,Maths,60,28,
+INFO|com.company.recon.writer.ConsoleWriter|5,MS Dhoni,5,Maths,50,28,
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,6,CS,50,45,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,6,CS,60,41,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,6,CS,70,36,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,6,CS,80,38,
+INFO|com.company.recon.writer.ConsoleWriter|5,MS Dhoni,6,CS,90,38,
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->targetlist ;Num of Records=10
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,5,Maths,92,35,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,5,Maths,80,31,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,5,Maths,70,26,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,5,Maths,60,28,
+INFO|com.company.recon.writer.ConsoleWriter|1,Sachin Tendulkar,6,CS,50,45,
+INFO|com.company.recon.writer.ConsoleWriter|2,Virender Shewag,6,CS,60,41,
+INFO|com.company.recon.writer.ConsoleWriter|3,Virat Kohli,6,CS,65,37,
+INFO|com.company.recon.writer.ConsoleWriter|4,Yuvraj Singh,6,CS,80,40,
+INFO|com.company.recon.writer.ConsoleWriter|5,MS Dhoni,6,CS,90,38,
+INFO|com.company.recon.writer.ConsoleWriter|6,Zaheer Khan,6,CS,95,48,
+INFO|com.company.recon.operations.Operator|Creating Source Minus Target Records
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Source-Target ;Num of Records=1
+INFO|com.company.recon.writer.ConsoleWriter|5,Maths,MS Dhoni,28,5,50,
+INFO|com.company.recon.operations.Operator|Creating Source Minus Target Records
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Target-Source ;Num of Records=1
+INFO|com.company.recon.writer.ConsoleWriter|6,CS,Zaheer Khan,48,6,95,
+INFO|com.company.recon.operations.Operator|Creating 'Source=Target' Records
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Source=Target ;Num of Records=6
+INFO|com.company.recon.writer.ConsoleWriter|2,Maths,Virender Shewag,31,5,80,
+INFO|com.company.recon.writer.ConsoleWriter|3,Maths,Virat Kohli,26,5,70,
+INFO|com.company.recon.writer.ConsoleWriter|4,Maths,Yuvraj Singh,28,5,60,
+INFO|com.company.recon.writer.ConsoleWriter|1,CS,Sachin Tendulkar,45,6,50,
+INFO|com.company.recon.writer.ConsoleWriter|2,CS,Virender Shewag,41,6,60,
+INFO|com.company.recon.writer.ConsoleWriter|5,CS,MS Dhoni,38,6,90,
+INFO|com.company.recon.operations.Operator|Creating Source Minus Target Records
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Source Of Diff ;Num of Records=3
+INFO|com.company.recon.writer.ConsoleWriter|1,Maths,Sachin Tendulkar,35,5,90,
+INFO|com.company.recon.writer.ConsoleWriter|3,CS,Virat Kohli,36,6,70,
+INFO|com.company.recon.writer.ConsoleWriter|4,CS,Yuvraj Singh,38,6,80,
+INFO|com.company.recon.operations.Operator|Creating Source Minus Target Records
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Target Of Diff ;Num of Records=3
+INFO|com.company.recon.writer.ConsoleWriter|1,Maths,Sachin Tendulkar,35,5,92,
+INFO|com.company.recon.writer.ConsoleWriter|3,CS,Virat Kohli,37,6,65,
+INFO|com.company.recon.writer.ConsoleWriter|4,CS,Yuvraj Singh,40,6,80,
+INFO|com.company.recon.operations.Operator|Dimensions(no of rows) of input List<String[]> are equal. Size is:3 createDiff() should work fine.
+INFO|com.company.recon.writer.ConsoleWriter|Printing List--->Source!=Target ;Num of Records=3
+INFO|com.company.recon.writer.ConsoleWriter|OK,OK,OK,0.0e,0.000000000v,Yes,OK,-2.0d,Yes,
+INFO|com.company.recon.writer.ConsoleWriter|OK,OK,OK,-1.0d,2.777777778v,Yes,OK,5.0d,No,
+INFO|com.company.recon.writer.ConsoleWriter|OK,OK,OK,-2.0d,5.263157895v,Yes,OK,0.0e,Yes,
+INFO|com.company.recon.writer.ExcelWriter|'Summary' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.writer.ExcelWriter|'Source' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\valueMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.operations.Operator|Printing studentHeader[]; Stopping when 'filter' is found------>
+INFO|com.company.recon.operations.Operator|0:studentid
+INFO|com.company.recon.writer.ExcelWriter|'Target' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.writer.ExcelWriter|'Source-Target' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\valueMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.operations.Operator|Printing studentHeader[]; Stopping when 'filter' is found------>
+INFO|com.company.recon.operations.Operator|0:studentid
+INFO|com.company.recon.writer.ExcelWriter|'Target-Source' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\valueMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.operations.Operator|Printing studentHeader[]; Stopping when 'filter' is found------>
+INFO|com.company.recon.operations.Operator|0:studentid
+INFO|com.company.recon.writer.ExcelWriter|'Source=Target' sheet name written successfully on local disk's project path.
+INFO|com.company.recon.writer.ExcelWriter|The header of Diff is:studentid,studentsubject,studentname,studentage,%Deviance,Within %Range:10%,studentsem,studentmarks,Within Range:4,
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\valueMapping.txt
+INFO|com.company.recon.reader.CustomFileReader|Done Reading from  file:.\config\columnMapping.txt
+INFO|com.company.recon.operations.Operator|Printing studentHeader[]; Stopping when 'filter' is found------>
+INFO|com.company.recon.operations.Operator|0:studentid
+INFO|com.company.recon.writer.ExcelWriter|'Source!=Target' sheet name written successfully on local disk's project path.

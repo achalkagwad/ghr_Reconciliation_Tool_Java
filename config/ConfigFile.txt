@@ -1,0 +1,8 @@
+delimiter=,
+sourceFile=Student_Source.csv
+targetFile=Student_Target.csv
+filter=yes,studentid,studentsubject,studentname,studentage,studentsem,studentmarks
+compositeKey=studentid,studentsem,studentsubject
+calculateDevianceOn=studentmarks,absolute,4:studentage,percentage,10
+columnMappingFile=yes,columnMapping.txt
+valueMappingFile=yes,valueMapping.txt

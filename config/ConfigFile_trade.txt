@@ -1,0 +1,8 @@
+delimiter=,
+sourceFile=SRC.csv
+targetFile=TAR.csv
+filter=no,TRADEID,TRN_DATE,B/S,Counterparty,Rate,Nominal,Strike,External ID
+compositeKey=TRADEID,B/S,Counterparty
+calculateDevianceOn=Rate,percentage,5:Nominal,absolute,600
+columnMappingFile=yes,columnMapping.txt
+valueMappingFile=yes,valueMapping.txt

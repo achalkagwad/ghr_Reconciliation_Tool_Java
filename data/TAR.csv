@@ -1,0 +1,12 @@
+TRN_DATE,B/S,Counterparty,Portfolio,Nominal,Rate,Strike,ExtID,TransactionID
+25-Jan-15,B,JPMC,portfolio1,100000,6.5,10,CAP920,cs100
+26-Jan-15,B,HDFC,portfolio2,50000,4.3,11,CAP921,cs101
+27-Jan-15,s,ICICI,portfolio3,20000,2.25,12,CAP922,cs102
+28-Jan-15,B,SCB BANK,portfolio4,3000,8.15,13,CAP923,cs103
+29-Jan-15,B,JPMC,portfolio5,25000,9.6,14,CAP924,cs104
+30-Jan-15,B,HDFC,portfolio1,65000,7.2,15,CAP925,cs115
+31-Jan-15,S,ICICI,portfolio2,80000,5.6,16,CAP926,cs106
+01-Feb-15,S,SCB,portfolio3,74600,7.8,17,CAP927,cs107
+02-Feb-15,S,JPMC,portfolio4,5500,1,18,CAP928,cs108
+03-Feb-15,B,HDFC,portfolio5,83000,10.5,19,CAP929,cs109
+04-Feb-15,S,ICICI,portfolio1,91000,4.8,20,CAP930,cs110
